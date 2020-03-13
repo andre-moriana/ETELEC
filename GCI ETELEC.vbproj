@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{0EBB64F8-4830-4AC8-A6F1-8045C1396917}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>GCI_ETELEC</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CLIENT.DBF" />
+    <None Include="COPRO.DBF" />
+    <None Include="DEDE.BFM" />
+    <None Include="FCLIENT.FRM" />
+    <None Include="FCLIENT.FRX" />
+    <None Include="FCLIENT.log" />
+    <None Include="FCLIENT2.FRM" />
+    <None Include="FCLIENT2.FRX" />
+    <None Include="FCOPRO.FRM" />
+    <None Include="FMAJ_INT.FRM" />
+    <None Include="FMAJ_INT.FRX" />
+    <None Include="F_A_INT.FRM" />
+    <None Include="F_A_INT.FRX" />
+    <None Include="F_A_INT.log" />
+    <None Include="GESTION.vbw" />
+    <None Include="GESTION.VBZ" />
+    <None Include="GESTION2.vbw" />
+    <None Include="INTERV.DBF" />
+    <None Include="INTERV.FRM" />
+    <None Include="INTERV.FRX" />
+    <None Include="INTERV.LOG" />
+    <None Include="LCOPRO.FRM" />
+    <None Include="LCOPRO.FRX" />
+    <None Include="LCOPRO.log" />
+    <None Include="LOGO.FRM" />
+    <None Include="LOGO.FRX" />
+    <None Include="LOGO.LOG" />
+    <None Include="LOGO2.PCX" />
+    <None Include="MINITEL.GLO" />
+    <None Include="MODIFINT.FRM" />
+    <None Include="MODIFINT.FRX" />
+    <None Include="MODIFINT.log" />
+    <None Include="My Project\app.manifest" />
+    <None Include="NUMERO.MEM" />
+    <None Include="SERVEUR.FRM" />
+    <None Include="SERVEUR.FRX" />
+    <None Include="SERVEUR.LOG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LOGO.BMP" />
+    <Content Include="LOGO.TXT" />
+    <Content Include="LOGO1.BMP" />
+    <Content Include="TEST.TXT" />
+    <Content Include="UpgradeLog.htm" />
+    <Content Include="UpgradeLog2.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MODULE1.BAS" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

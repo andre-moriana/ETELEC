@@ -1,0 +1,46 @@
+Attribute VB_Name = "MINITEL"
+DefInt A-Z
+
+'--- MSComm event constants
+Global Const MSCOMM_EV_SEND = 1
+Global Const MSCOMM_EV_RECEIVE = 2
+Global Const MSCOMM_EV_CTS = 3
+Global Const MSCOMM_EV_DSR = 4
+Global Const MSCOMM_EV_CD = 5
+Global Const MSCOMM_EV_RING = 6
+Global Const MSCOMM_EV_EOF = 7
+
+Global varncopro$, varcclient$, varnumero%
+'--- MSComm error code constants
+Global Const MSCOMM_ER_BREAK = 1001
+Global Const MSCOMM_ER_CTSTO = 1002
+Global Const MSCOMM_ER_DSRTO = 1003
+Global Const MSCOMM_ER_FRAME = 1004
+Global Const MSCOMM_ER_OVERRUN = 1006
+Global Const MSCOMM_ER_CDTO = 1007
+Global Const MSCOMM_ER_RXOVER = 1008
+Global Const MSCOMM_ER_RXPARITY = 1009
+Global Const MSCOMM_ER_TXFULL = 1010
+
+'--- Common Dialog constants
+Global Const CDERR_CANCEL = 32755
+Global Const CF_SCREENFONTS = &H1&
+
+'--- Global variables
+Global Echo                 'Echo On/Off flag
+Global CancelSend           'Flag to stop sending
+                            '  a text file.
+
+Type DBMes
+Eff As String * 1
+DateAp As String * 8
+HeureAp As String * 5
+NomD As String * 30
+Service As String * 30
+NomE As String * 30
+Societe As String * 30
+Tel As String * 16
+Message As String * 240
+DateMaj As String * 8
+HeureMaj As String * 5
+End Type

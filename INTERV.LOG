@@ -1,0 +1,37 @@
+Ligne 60: La classe MSGrid.Grid du contrôle Grid1 n'est pas une classe de contrôle chargée.
+Ligne 76: La classe MSACAL.Calendar du contrôle Calendar1 n'est pas une classe de contrôle chargée.
+Ligne 251: La classe MSComDlg.CommonDialog du contrôle CommonDialog1 n'est pas une classe de contrôle chargée.
+Ligne 266: La classe MSDBGrid.DBGrid du contrôle DBGrid1 n'est pas une classe de contrôle chargée.
+Ligne 66: Le nom de la propriété _Version dans Grid1 est incorrect.
+Ligne 67: Le nom de la propriété _ExtentX dans Grid1 est incorrect.
+Ligne 68: Le nom de la propriété _ExtentY dans Grid1 est incorrect.
+Ligne 69: Le nom de la propriété _StockProps dans Grid1 est incorrect.
+Ligne 72: Le nom de la propriété Rows dans Grid1 est incorrect.
+Ligne 73: Le nom de la propriété Cols dans Grid1 est incorrect.
+Ligne 74: Le nom de la propriété ScrollBars dans Grid1 est incorrect.
+Ligne 83: Le nom de la propriété _Version dans Calendar1 est incorrect.
+Ligne 84: Le nom de la propriété _ExtentX dans Calendar1 est incorrect.
+Ligne 85: Le nom de la propriété _ExtentY dans Calendar1 est incorrect.
+Ligne 86: Le nom de la propriété _StockProps dans Calendar1 est incorrect.
+Ligne 88: Le nom de la propriété Year dans Calendar1 est incorrect.
+Ligne 89: Le nom de la propriété Month dans Calendar1 est incorrect.
+Ligne 90: Le nom de la propriété Day dans Calendar1 est incorrect.
+Ligne 99: Le nom de la propriété DayFont dans Calendar1 est incorrect.
+Ligne 100: Le nom de la propriété DayFontColor dans Calendar1 est incorrect.
+Ligne 101: Le nom de la propriété FirstDay dans Calendar1 est incorrect.
+Ligne 110: Le nom de la propriété GridFont dans Calendar1 est incorrect.
+Ligne 111: Le nom de la propriété GridFontColor dans Calendar1 est incorrect.
+Ligne 112: Le nom de la propriété GridLinesColor dans Calendar1 est incorrect.
+Ligne 254: Le nom de la propriété _Version dans CommonDialog1 est incorrect.
+Ligne 255: Le nom de la propriété _ExtentX dans CommonDialog1 est incorrect.
+Ligne 256: Le nom de la propriété _ExtentY dans CommonDialog1 est incorrect.
+Ligne 257: Le nom de la propriété _StockProps dans CommonDialog1 est incorrect.
+Ligne 258: Le nom de la propriété Copies dans CommonDialog1 est incorrect.
+Ligne 259: Le nom de la propriété DefaultExt dans CommonDialog1 est incorrect.
+Ligne 260: Le nom de la propriété DialogTitle dans CommonDialog1 est incorrect.
+Ligne 261: Le nom de la propriété FileName dans CommonDialog1 est incorrect.
+Ligne 262: Le nom de la propriété Filter dans CommonDialog1 est incorrect.
+Ligne 263: Le nom de la propriété FilterIndex dans CommonDialog1 est incorrect.
+Ligne 264: Le nom de la propriété InitDir dans CommonDialog1 est incorrect.
+Ligne 267: Le nom de la propriété Bindings dans DBGrid1 est incorrect.
+Ligne 270: Le nom de la propriété OleObjectBlob dans DBGrid1 est incorrect.
